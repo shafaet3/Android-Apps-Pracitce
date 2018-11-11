@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_action_search_btn"
+        android:icon="@mipmap/action_search"
+        android:title="@string/action_search_text"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/id_action_acc_setting_btn"
+        android:title="@string/action_acc_settings_text" />
+    <item
+        android:id="@+id/id_action_logout_btn"
+        android:title="@string/action_logout_text" />
+</menu>

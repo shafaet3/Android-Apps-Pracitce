@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "913515680398",
+    "firebase_url": "https://crud-app-firebase.firebaseio.com",
+    "project_id": "crud-app-firebase",
+    "storage_bucket": "crud-app-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913515680398:android:817907029c1cd5bf",
+        "android_client_info": {
+          "package_name": "com.example.shafaet.crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913515680398-ujfgmcrv8rampmlej9u33s188bpm9ghg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shafaet.crud",
+            "certificate_hash": "7f34a622fb6591d8724ab87bf5e387b0f5e4c493"
+          }
+        },
+        {
+          "client_id": "913515680398-0nk48iceoi82ok04o6dv8e30ii2nrca7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw8WmVEV1j3tMnMu4ZgwAebqTgwh8jIqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913515680398-0nk48iceoi82ok04o6dv8e30ii2nrca7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

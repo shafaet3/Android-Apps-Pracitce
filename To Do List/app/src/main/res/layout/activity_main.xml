@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/id_app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <LinearLayout
+            android:id="@+id/id_layout_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/id_et_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Set Title"
+                android:inputType="text"
+                android:textColorHint="@android:color/white"
+                android:textSize="30sp"
+                app:met_baseColor="@android:color/white"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@android:color/white"
+                app:met_singleLineEllipsis="true"
+                app:met_textColorHint="@android:color/white" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/id_et_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:inputType="textMultiLine"
+                android:textColorHint="@android:color/white"
+                android:textSize="20sp"
+                app:met_baseColor="@android:color/white"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@android:color/white"
+                app:met_singleLineEllipsis="true"
+                app:met_textColorHint="@android:color/white" />
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/id_fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_add_black_24dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/id_app_bar_layout"
+        app:layout_anchorGravity="bottom|right"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/id_fab_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/ic_update_black_24dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/id_app_bar_layout"
+        app:layout_anchorGravity="right|bottom"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_list_to_do"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </android.support.v7.widget.RecyclerView>
+</android.support.design.widget.CoordinatorLayout>
